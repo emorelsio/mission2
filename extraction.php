@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents("patrimoine-fluvial-remarquable-des-bords-de-seine-et-de-marne0.json");
+$json = file_get_contents('mission2.json', true);
 
 $parsed_json = json_decode($json, true);
 

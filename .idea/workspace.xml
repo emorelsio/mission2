@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0a57a2e-31d7-4c58-ba13-0cc04842696e" name="Default Changelist" comment="" />
+    <list default="true" id="d0a57a2e-31d7-4c58-ba13-0cc04842696e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraction.php" beforeDir="false" afterPath="$PROJECT_DIR$/extraction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patrimoine-fluvial-remarquable-des-bords-de-seine-et-de-marne0.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +27,7 @@
       </set>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
   <component name="ProjectId" id="1UT1h8Qg4zwPo0M3yZLr5gM4M74" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,6 +65,10 @@
       <workItem from="1575365966073" duration="30000" />
       <workItem from="1575366142742" duration="9000" />
       <workItem from="1575366160931" duration="3799000" />
+      <workItem from="1575376916293" duration="551000" />
+      <workItem from="1575622923530" duration="1577000" />
+      <workItem from="1575898418895" duration="3614000" />
+      <workItem from="1575984667375" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="initialisation">
       <created>1575369266436</created>
@@ -88,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575370149762</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1575376964158</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575376964158</updated>
+    </task>
+    <task id="LOCAL-00006" summary="premier commit">
+      <created>1575624367608</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575624367608</updated>
+    </task>
+    <task id="LOCAL-00007" summary="deuxième">
+      <created>1575624490372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575624490372</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,21 +127,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialisation" />
+    <MESSAGE value="test" />
+    <MESSAGE value="premier commit" />
+    <MESSAGE value="deuxième" />
+    <option name="LAST_COMMIT_MESSAGE" value="deuxième" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Notifications" timestamp="1575369370931">
+    <state x="361" y="70" key="#Notifications" timestamp="1575377031032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1575369370931" />
+    <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1575377031032" />
+    <state x="476" y="2" key="#PHP" timestamp="1575623815917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="476" y="2" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1575623815917" />
     <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575366148050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1575366148050" />
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1575370149064">
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1575624489376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575370149064" />
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575624489376" />
     <state x="147" y="64" key="DiffContextDialog" timestamp="1575369674608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -123,10 +161,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="582" y="122" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575369701088" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575370183880">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575624493453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575370183880" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575624493453" />
+    <state x="505" y="203" key="git4idea.merge.GitPullDialog" timestamp="1575377045491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="505" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1575377045491" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1575367362003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

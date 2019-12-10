@@ -27,7 +27,7 @@ function connect()
     }
 }
 
-$pdo = connect();
+//$pdo = connect();
 
 if ($dbError) {
     die('<div class="ui red inverted segment"> <p>'
